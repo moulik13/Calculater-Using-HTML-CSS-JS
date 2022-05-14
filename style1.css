@@ -1,0 +1,51 @@
+.text-center{
+  text-align: center;
+}
+.bg-red{
+  
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+} 
+
+.flex-col{
+  @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+  flex-direction: column;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+
+  font-family: 'Koulen', cursive;
+
+}
+.item-center{
+      justify-content: center;
+    align-items: center;
+}
+
+.button{
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+   border-radius: 11px;
+  cursor: pointer;
+}
+
+.row input{
+  margin: 0;
+  padding: 8px 34px;
+  border: 2px solid black;
+    border-radius: 8px;
+}
+
+
+.row{
+      margin: 8px 0;
+}
+
